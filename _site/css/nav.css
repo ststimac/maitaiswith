@@ -17,3 +17,12 @@ header {
 .nav__item a {
     color: var(--darkred);
 }
+
+footer {
+    min-height: 4rem;
+    font-size: 1.2rem;
+}
+
+footer p {
+    padding: 1.2rem 0;
+}

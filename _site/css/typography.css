@@ -43,3 +43,15 @@ nav,
     font-weight: 700;
     line-height: 2.8rem;
 }
+
+a {
+    color: var(--purple);
+    font-weight: bold;
+    background: linear-gradient(var(--lightred), var(--lightred));
+    background-size: 100% 0.5rem;
+    background-repeat: no-repeat;
+    background-position: left 0 bottom 0;
+    transition: all 0.1s linear 0s;
+
+    text-decoration: none;
+}
