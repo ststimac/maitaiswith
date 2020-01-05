@@ -56,4 +56,9 @@ main {
 		flex-direction: column;
 	}
 
+	.main__body--left {
+		width: 100%;
+		margin-right: 2rem;
+	}
+
 }
