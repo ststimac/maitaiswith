@@ -1,0 +1,25 @@
+:root {
+    --lightred: #f2b9ac;
+    --darkred: #bd482e;
+    --purple: #36223e;
+    --tan: #fff4e4;
+    --darktan: #eeddc2;
+    --grey: #3a3a3a;
+    --white: #fff;
+  }
+
+.logo {
+    position: absolute;
+    top: 1rem;
+    max-width: 27rem;
+}
+
+.cursive-label {
+    color: var(--darkred);
+}
+
+/* Hide only visually, but have it available for screen readers */
+.visually-hidden {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}

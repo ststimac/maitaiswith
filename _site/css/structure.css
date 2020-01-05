@@ -1,0 +1,59 @@
+body {
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	height: 100%;
+	background-color: var(--lightred);
+}
+
+main {
+	flex: 1 0 auto;
+	background-color: var(--tan);
+}
+
+* + p {
+	margin-top: 1.2rem;
+}
+
+.container {
+	width: 100%;
+	max-width: 720px;
+	margin: 0 auto;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.main__body {
+	display: flex;
+}
+
+.main__body--left {
+	position: relative;
+	top: 12rem;
+    max-width: 28rem;
+    width: 100%;
+	margin-right: 2rem;
+}
+
+.main__body--right {
+	max-width: 41rem;
+	width: 100%;
+
+	display: grid;
+	grid-template-columns: 41rem;
+	grid-template-rows: repeat(5, 9rem);
+	grid-gap: 2rem;
+}
+
+.episode {
+    align-self: end;
+}
+
+
+@media (max-width: 42em) {
+
+	.main__body {
+		flex-direction: column;
+	}
+
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Mai Tais With",
+  "shortDesc": "Mai Tais With is a video podcast about all things web and digital.",
+  "url": "https://www.maitaiswith.com/",
+  "authorEmail": "maitaiswith@gmail.com",
+  "authorHandle": "@seaotta",
+  "authorName": "Stephanie Stimac",
+  "enableThirdPartyComments": false,
+  "faviconPath": "/images/favicon.png",
+  "copyright": "Ⓒ 2020 Mai Tais With" 
+}

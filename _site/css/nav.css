@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 5rem;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+    padding-left: 1rem;
+}
+
+.nav__item a {
+    color: var(--darkred);
+}

@@ -1,0 +1,45 @@
+
+/* Base font size: 10px for easy rem to px conversion. */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: 1.5em/1.65 base, 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+	margin-top: 2rem;
+}
+
+nav,
+.cursive-label {
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    font-size: 3.6rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3,
+nav,
+.subheading {
+    font-size: 2rem;
+}
+
+.subheading {
+    font-weight: 700;
+    line-height: 2.8rem;
+}
