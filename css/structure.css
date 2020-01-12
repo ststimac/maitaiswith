@@ -16,44 +16,47 @@ main {
 }
 
 .container {
+	max-width: 960px;
 	width: 100%;
-	max-width: 720px;
 	margin: 0 auto;
-	padding-right: 1rem;
-	padding-left: 1rem;
+	padding: 0 4rem;
 }
 
 .main__body {
 	display: flex;
+	margin: 4rem 0;
 }
 
 .main__body--left {
-	position: relative;
-	top: 12rem;
-    max-width: 28rem;
+    max-width: 32rem;
     width: 100%;
-	margin-right: 2rem;
+	margin-right: 4rem;
 }
 
-.main__body--right {
-	max-width: 41rem;
+.main__body--right {	
 	width: 100%;
-
 	display: grid;
-	grid-template-columns: 41rem;
-	grid-template-rows: repeat(5, 9rem);
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, 9rem);
 	grid-gap: 2rem;
+
 }
 
 .episode {
+	font-size: 2.8rem;
     align-self: end;
 }
-
 
 @media (max-width: 42em) {
 
 	.main__body {
 		flex-direction: column;
+	}
+
+	.main__body--left {
+		width: 100%;
+		margin-right: 2rem;
+		max-width: max-content;
 	}
 
 }

@@ -26,22 +26,21 @@ nav,
 }
 
 h1 {
-    font-size: 3.6rem;
+    font-size: 4.8rem;
 }
 
 h2 {
-    font-size: 2.8rem;
+    font-size: 3.6rem;
 }
 
 h3,
-nav,
 .subheading {
-    font-size: 2rem;
+    font-size: 2.8rem;
 }
 
-.subheading {
-    font-weight: 700;
-    line-height: 2.8rem;
+h4,
+nav {
+    font-size: 2rem;
 }
 
 a {
@@ -54,4 +53,28 @@ a {
     transition: all 0.1s linear 0s;
 
     text-decoration: none;
+}
+
+.subheading {
+    font-weight: 700;
+    line-height: 3.6rem;
+}
+
+.tagline {
+    font-weight: 700;
+    color: var(--purple);
+
+}
+
+.cursive-label {
+    color: var(--darkred);
+}
+
+
+@media (min-width: 42em) {
+
+    .tagline {
+        margin: 0;
+    }
+
 }

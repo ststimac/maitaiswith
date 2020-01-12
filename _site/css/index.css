@@ -8,16 +8,6 @@
     --white: #fff;
   }
 
-.logo {
-    position: absolute;
-    top: 1rem;
-    max-width: 27rem;
-}
-
-.cursive-label {
-    color: var(--darkred);
-}
-
 /* Hide only visually, but have it available for screen readers */
 .visually-hidden {
 	position: absolute;
